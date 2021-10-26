@@ -293,6 +293,6 @@ set(k, 'Position', [0.54 0.225 0.25 .025], 'YTick',linspace(round(lower*100)/100
 
 
 %%
-dir  = 'F:/PhD/Analysing_11KUROSHIOMANI/FIGS/Eastward_Jet/PRF_Figs/pcolor_notopo_ur/';
-cd(dir);
+dir1  = 'F:/PhD/Analysing_11KUROSHIOMANI/FIGS/Eastward_Jet/PRF_Figs/pcolor_notopo_ur/';
+cd(dir1);
 print('-djpeg', '-r400', 'rms_hovmoller_notopo.jpeg');
