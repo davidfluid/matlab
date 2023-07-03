@@ -4,12 +4,8 @@
 
 clear; clc; close all;
 
-cd G:\computations_dir\oscillating_cylinder\validation_dir\stationary_validation_08apr2023;
+cd D:\computations_dir\oscillating_cylinder\aratio0point1_fratio3point5\postProcessing\plot_over_line_time_z_vorticity;
 
-writerObj = VideoWriter('velocity_field.avi');
-writerObj.FrameRate = 2;
-
-open(writerObj);
 for i = 1:20
     
 %% specify your file name here
